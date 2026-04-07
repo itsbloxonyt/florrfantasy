@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<title>FlorrFantasyIndex-v2</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+        <!-- TOP LEFT HUD -->
+        <div id="topleft">
+          <canvas id="face-icon" width="40" height="40"></canvas>
+          <div id="player-info">
+            <div id="name-row">Player <span id="lvl-badge">Lv 1</span></div>
+            <div id="hp-bar-wrap"><div id="hp-bar-fill"></div></div>
+            <div id="xp-bar-wrap"><div id="xp-bar-fill"></div></div>
+          </div>
+        </div>
+        
+        <div id="state-indicator">🌸 IDLE</div>
+        <div id="controls-hint">WASD move · Mouse aim · LClick/Space ATTACK · RClick/Shift DEFEND</div>
+        <canvas id="c"></canvas>
+        
+        <!-- PETAL BAR -->
+        <div id="petalbar">
+          <div id="active-slots"></div>
+          <div id="swap-slots"></div>
+        </div>
+        
+        <div id="death-screen">
+          💀 YOU DIED
+          <button onclick="resetGame()">Respawn</button>
+        </div>
+        
+</body>
+<script type="module" src="main.js" defer></script>
