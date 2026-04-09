@@ -2,8 +2,8 @@ import {
   WORLD_W, WORLD_H, PETAL_TYPES, cam, worldToScreen,
   player, petals, petalState, mobs, drops,
   grass, dots, frame, swapCooldown, SWAP_CD_MAX,
-} from './state.js';
-import { mouse } from './input.js';
+} from '../state.js';
+import { mouse } from '../input.js';
 
 export function dist(a, b) { return Math.hypot(a.x-b.x, a.y-b.y); }
 
