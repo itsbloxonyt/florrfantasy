@@ -3,8 +3,8 @@ import {
   activeSlots, swapSlots, petals, petalStateCache, slotCooldown,
   setSwapCooldown, setLastSwapTime, lastSwapTime,
   player,
-} from './game/state.js';
-import { rebuildPetals } from './content/petals.js';
+} from '../state.js';
+import { rebuildPetals } from '../content/petals.js';
 import { buildPetalBarUI, attachSlotEvents } from './ui.js';
 
 export const keys = {};
