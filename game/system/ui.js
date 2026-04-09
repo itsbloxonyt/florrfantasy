@@ -2,8 +2,8 @@ import {
   ACTIVE_COUNT, SWAP_COUNT, SWAP_CD_MAX,
   PETAL_TYPES, activeSlots, swapSlots, petals, petalStateCache,
   player, swapCooldown, setSwapCooldown,
-} from './state.js';
-import { rebuildPetals } from './petals.js';
+} from '../game/system/state.js';
+import { rebuildPetals } from '../game/content/petals.js';
 
 let dragSrc = null;
 
