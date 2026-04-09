@@ -3,7 +3,7 @@ import {
   player, petals, petalState, mobs, drops,
   grass, dots, frame, swapCooldown, SWAP_CD_MAX,
 } from '../state.js';
-import { mouse } from '../input.js';
+import { mouse } from './input.js';
 
 export function dist(a, b) { return Math.hypot(a.x-b.x, a.y-b.y); }
 
