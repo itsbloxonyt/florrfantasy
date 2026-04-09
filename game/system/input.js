@@ -96,3 +96,4 @@ export function handleInput() {
   }
   keys['_KeyR'] = keys['KeyR'];
 }
+console.log("inputloaded")
