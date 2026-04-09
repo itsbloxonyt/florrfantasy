@@ -1,5 +1,5 @@
 import {
-  PETAL_TYPES, cam, worldToScreen,
+  WORLD_W, WORLD_H, PETAL_TYPES, cam, worldToScreen,
   player, petals, petalState, mobs, drops,
   grass, dots, frame, swapCooldown, SWAP_CD_MAX,
 } from './state.js';
