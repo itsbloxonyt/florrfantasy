@@ -3,8 +3,8 @@ import {
   cam, player, petals, petalState, setPetalState,
   mobs, drops, frame, setFrame, spawnTimer, setSpawnTimer,
   dead, swapCooldown, setSwapCooldown,
-} from './state.js';
-import { spawnMob, killMob, addPetalDrop } from './petals.js';
+} from './game/state.js';
+import { spawnMob, killMob, addPetalDrop } from './content/petals.js';
 import { keys, mouse, handleInput } from './input.js';
 import { updateHUD } from './ui.js';
 
