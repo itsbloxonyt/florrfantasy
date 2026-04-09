@@ -1,6 +1,6 @@
-import { WORLD_W, WORLD_H, ACTIVE_COUNT, player, mobs, drops, activeSlots, swapSlots, petals, petalStateCache, setDead, dead } from '../state.js';
-import { rebuildPetals, spawnMob } from '../content/petals.js';
-import { initInput } from '../game/system/input.js';
+import { WORLD_W, WORLD_H, ACTIVE_COUNT, player, mobs, drops, activeSlots, swapSlots, petals, petalStateCache, setDead, dead } from './state.js';
+import { rebuildPetals, spawnMob } from './content/petals.js';
+import { initInput } from './game/system/input.js';
 import { buildPetalBarUI, attachSlotEvents, updateHUD } from '../system/ui.js';
 import { draw, drawSmiley, drawCooldown } from '../system/render.js';
 import { update } from '../system/update.js';
