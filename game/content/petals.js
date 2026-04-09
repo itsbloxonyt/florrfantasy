@@ -2,8 +2,8 @@ import {
   PETAL_TYPES, ACTIVE_COUNT, SWAP_COUNT,
   player, petals, setPetals, petalStateCache, activeSlots, swapSlots,
   mobs, drops, MOB_TYPES, WORLD_W, WORLD_H,
-} from './state.js';
-import { buildPetalBarUI, attachSlotEvents } from './ui.js';
+} from '../game/state.js';
+import { buildPetalBarUI, attachSlotEvents } from '../game/system/ui.js';
 
 export function rebuildPetals() {
   const newPetals = [];
